@@ -1,12 +1,3 @@
-@media (orientation: landscape) {
-    div.icon{width: 50vh; height: 50vh;}
-}
-@media (orientation: portrait) {
-    div.icon{width: 50vw; height: 50vw;}
-}
-@media (max-width: 600px) {
-    div.icon{width: 50vw; height: 50vw;}
-}
 body{padding: 0; margin: 0; order: 1;}
 div.bg{background: url(bg.jpg); background-size: cover; background-repeat: no-repeat;
     filter: blur(8px); -webkit-filter: blur(8px); height: 100vh; width: 100vw;}
@@ -15,4 +6,17 @@ div.outer{display: table; position: absolute; top: 0; left: 0; height: 100vh; wi
     order:3;}
 div.icon_wrap{display: table-cell; vertical-align: middle;}
 div.icon{margin-left: auto; margin-right: auto; border-style: solid; border-radius: 50%;
-overflow: hidden; border-width: 15px; border-color: pink;}
+overflow: hidden; border-width: 1vw; border-color: pink;}
+div.prof_wrap{text-align: center;}
+div.outer div.text_prof{mix-blend-mode: screen; color: black; 
+    background-color: white; opacity: 1; font-size: 4vh; border-style: solid; 
+    border-width: 1vh; border-color: white; vertical-align: middle;
+    border-radius: 10vh; vertical-align: middle; min-width: 50vh; display: inline-block;}
+@media (orientation: landscape) , (min-aspect-ratio: 1/1) {
+    div.icon{width: 40vh; height: 40vh;}
+    div.outer div.text_prof{font-size: 4vh; border-radius: 10vh; min-width: 50vh;}
+}
+@media (orientation: portrait) , (max-aspect-ratio: 1/1) {
+    div.icon{width: 40vw; height: 40vw;}
+    div.outer div.text_prof{font-size: 4vw; border-radius: 10vw; min-width: 50vw;}
+}
