@@ -12,8 +12,8 @@ div.icon{margin-left: auto; margin-right: auto; border-style: solid; border-radi
 overflow: hidden; border-width: 1vw; border-color: pink;}
 div.prof_wrap{text-align: center;}
 div.outer div.text_prof{mix-blend-mode: screen; color: #ff0d6e; 
-    background-color: white; opacity: 1; font-size: 4vh; border-style: solid; 
-    border-width: 1vh; border-color: white; vertical-align: middle; opacity: 1;
+    background-color: whitesmoke; opacity: 1; font-size: 4vh; border-style: solid; 
+    border-width: 1vh; border-color: whitesmoke; vertical-align: middle; opacity: 1;
     border-radius: 10vh; vertical-align: middle; min-width: 50vh; display: inline-block;}
 div.application{border-style: solid; border-color: white; vertical-align: middle;
 background: white; width: 80vw; height: 60vh; color: pink; text-align: center; margin: auto;}
