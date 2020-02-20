@@ -1,4 +1,4 @@
-body{padding: 0; margin: 0; order: 0; overflow-x: hidden;}
+body{padding: 0; margin: 0; order: 0; overflow-x: hidden; z-index: -2;}
 section{width: 100vw; height: 100vh;}
 section#profile{background: pink;}
 div.bg{background: url(bg.jpg); background-size: cover; background-repeat: no-repeat;
