@@ -1,9 +1,9 @@
-body{padding: 0; margin: 0; order: 1; overflow-x: hidden;}
-section{width: 100vw; height: 100vh; margin:0; padding: 0;}
+body{padding: 0; margin: 0; order: 0; overflow-x: hidden;}
+section{width: 100vw; height: 100vh;}
 section#profile{background: pink;}
 div.bg{background: url(bg.jpg); background-size: cover; background-repeat: no-repeat;
     filter: blur(8px); -webkit-filter: blur(8px); height: 100vh; width: 100vw; 
-    background-position: center; position: absolute;}
+    background-position: center; position: absolute; order: 1;}
 img.icon{width: 100%; height: 100%; order:2;}
 div.outer{display: table; position: absolute; top: 0; left: 0; height: 100vh; width: 100vw;
     order:3;}
@@ -15,6 +15,13 @@ div.outer div.text_prof{mix-blend-mode: screen; color: palevioletred;
     background-color: white; opacity: 1; font-size: 4vh; border-style: solid; 
     border-width: 1vh; border-color: white; vertical-align: middle; opacity: 1;
     border-radius: 10vh; vertical-align: middle; min-width: 50vh; display: inline-block;}
+div.application{border-style: solid; border-color: white; vertical-align: middle;
+background: white; width: 60vw; height: 40vw; color: pink; text-align: center; margin: auto;}
+div.profile_wrap{text-align: center; display: flex; align-items: center; width: 100vw; 
+    height: 100vh;}
+a:link{color: palevioletred; text-decoration: none;}
+a:visited{color: palevioletred; text-decoration: none;}
+a:hover{color: pink; text-decoration: none;}
 @media (orientation: landscape) , (min-aspect-ratio: 1/1) {
     div.icon{width: 40vh; height: 40vh;}
     div.outer div.text_prof{font-size: 4vh; border-radius: 10vh; min-width: 50vh;}
