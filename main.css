@@ -11,7 +11,7 @@ div.icon_wrap{display: table-cell; vertical-align: middle;}
 div.icon{margin-left: auto; margin-right: auto; border-style: solid; border-radius: 50%;
 overflow: hidden; border-width: 1vw; border-color: pink;}
 div.prof_wrap{text-align: center;}
-div.outer div.text_prof{mix-blend-mode: screen; color: palevioletred; 
+div.outer div.text_prof{mix-blend-mode: screen; color: #ff0d6e; 
     background-color: white; opacity: 1; font-size: 4vh; border-style: solid; 
     border-width: 1vh; border-color: white; vertical-align: middle; opacity: 1;
     border-radius: 10vh; vertical-align: middle; min-width: 50vh; display: inline-block;}
