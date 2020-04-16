@@ -1,4 +1,5 @@
-body{padding: 0; margin: 0; order: 0; overflow-x: hidden; z-index: -2;}
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+body{padding: 0; margin: 0; order: 0; overflow-x: hidden; z-index: -2; font-family: 'Source Code Pro', monospace;}
 section{width: 100vw; height: 100vh; overflow-x:hidden;}
 section#profile{background: pink;}
 div.bg{background: url(bg.jpg); background-size: cover; background-repeat: no-repeat;
